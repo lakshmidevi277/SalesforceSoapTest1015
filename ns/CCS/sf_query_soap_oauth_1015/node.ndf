@@ -20,7 +20,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <value name="is_public">false</value>
-          <value name="field_name">sf_query_oauth_soap_1015Input</value>
+          <value name="field_name">sf_query_soap_oauth_1015Input</value>
           <value name="field_type">record</value>
           <value name="field_dim">0</value>
           <value name="wrapper_type">IData</value>
@@ -241,7 +241,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <value name="is_public">false</value>
-          <value name="field_name">sf_query_oauth_soap_1015Output</value>
+          <value name="field_name">sf_query_soap_oauth_1015Output</value>
           <value name="field_type">record</value>
           <value name="field_dim">0</value>
           <value name="wrapper_type">IData</value>
@@ -2213,181 +2213,6 @@
                               <value name="form_qualified">false</value>
                               <value name="is_global">false</value>
                             </record>
-                            <record javaclass="com.wm.util.Values">
-                              <value name="node_type">field</value>
-                              <value name="node_subtype">unknown</value>
-                              <value name="node_comment">personalContact</value>
-                              <value name="is_public">false</value>
-                              <value name="field_name">ens:personalContact__c</value>
-                              <value name="field_type">string</value>
-                              <value name="field_dim">0</value>
-                              <value name="field_opt">true</value>
-                              <record name="field_content_type" javaclass="com.wm.util.Values">
-                                <value name="contentType">1</value>
-                                <value name="internalType">reference</value>
-                                <value name="dataTypeVersion">dtVersion2</value>
-                                <array name="targetNames" type="record" depth="1">
-                                  <record javaclass="com.wm.util.Values">
-                                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                                    <value name="ncName">string</value>
-                                  </record>
-                                </array>
-                              </record>
-                              <value name="nillable">true</value>
-                              <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                              <value name="form_qualified">false</value>
-                              <value name="is_global">false</value>
-                            </record>
-                            <record javaclass="com.wm.util.Values">
-                              <value name="node_type">field</value>
-                              <value name="node_subtype">unknown</value>
-                              <value name="node_comment">newtest_c</value>
-                              <value name="is_public">false</value>
-                              <value name="field_name">ens:newtest_c__c</value>
-                              <value name="field_type">string</value>
-                              <value name="field_dim">0</value>
-                              <value name="field_opt">true</value>
-                              <record name="field_content_type" javaclass="com.wm.util.Values">
-                                <value name="contentType">1</value>
-                                <value name="internalType">reference</value>
-                                <value name="dataTypeVersion">dtVersion2</value>
-                                <array name="targetNames" type="record" depth="1">
-                                  <record javaclass="com.wm.util.Values">
-                                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                                    <value name="ncName">string</value>
-                                  </record>
-                                </array>
-                              </record>
-                              <value name="nillable">true</value>
-                              <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                              <value name="form_qualified">false</value>
-                              <value name="is_global">false</value>
-                            </record>
-                            <record javaclass="com.wm.util.Values">
-                              <value name="node_type">field</value>
-                              <value name="node_subtype">unknown</value>
-                              <value name="node_comment">CountryExtId_c__c</value>
-                              <value name="is_public">false</value>
-                              <value name="field_name">ens:CountryExtId_c_c__c</value>
-                              <value name="field_type">string</value>
-                              <value name="field_dim">0</value>
-                              <value name="field_opt">true</value>
-                              <record name="field_content_type" javaclass="com.wm.util.Values">
-                                <value name="contentType">1</value>
-                                <value name="internalType">reference</value>
-                                <value name="dataTypeVersion">dtVersion2</value>
-                                <array name="targetNames" type="record" depth="1">
-                                  <record javaclass="com.wm.util.Values">
-                                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                                    <value name="ncName">string</value>
-                                  </record>
-                                </array>
-                              </record>
-                              <value name="nillable">true</value>
-                              <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                              <value name="form_qualified">false</value>
-                              <value name="is_global">false</value>
-                            </record>
-                            <record javaclass="com.wm.util.Values">
-                              <value name="node_type">field</value>
-                              <value name="node_subtype">unknown</value>
-                              <value name="node_comment">SampleExt__c</value>
-                              <value name="is_public">false</value>
-                              <value name="field_name">ens:SampleExt_c__c</value>
-                              <value name="field_type">string</value>
-                              <value name="field_dim">0</value>
-                              <value name="field_opt">true</value>
-                              <record name="field_content_type" javaclass="com.wm.util.Values">
-                                <value name="contentType">1</value>
-                                <value name="internalType">reference</value>
-                                <value name="dataTypeVersion">dtVersion2</value>
-                                <array name="targetNames" type="record" depth="1">
-                                  <record javaclass="com.wm.util.Values">
-                                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                                    <value name="ncName">string</value>
-                                  </record>
-                                </array>
-                              </record>
-                              <value name="nillable">true</value>
-                              <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                              <value name="form_qualified">false</value>
-                              <value name="is_global">false</value>
-                            </record>
-                            <record javaclass="com.wm.util.Values">
-                              <value name="node_type">field</value>
-                              <value name="node_subtype">unknown</value>
-                              <value name="node_comment">test_doc_deprecated</value>
-                              <value name="is_public">false</value>
-                              <value name="field_name">ens:test_doc_deprecated__c</value>
-                              <value name="field_type">string</value>
-                              <value name="field_dim">0</value>
-                              <value name="field_opt">true</value>
-                              <record name="field_content_type" javaclass="com.wm.util.Values">
-                                <value name="contentType">1</value>
-                                <value name="internalType">reference</value>
-                                <value name="dataTypeVersion">dtVersion2</value>
-                                <array name="targetNames" type="record" depth="1">
-                                  <record javaclass="com.wm.util.Values">
-                                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                                    <value name="ncName">string</value>
-                                  </record>
-                                </array>
-                              </record>
-                              <value name="nillable">true</value>
-                              <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                              <value name="form_qualified">false</value>
-                              <value name="is_global">false</value>
-                            </record>
-                            <record javaclass="com.wm.util.Values">
-                              <value name="node_type">field</value>
-                              <value name="node_subtype">unknown</value>
-                              <value name="node_comment">test_doc</value>
-                              <value name="is_public">false</value>
-                              <value name="field_name">ens:test_doc__c</value>
-                              <value name="field_type">string</value>
-                              <value name="field_dim">0</value>
-                              <value name="field_opt">true</value>
-                              <record name="field_content_type" javaclass="com.wm.util.Values">
-                                <value name="contentType">1</value>
-                                <value name="internalType">reference</value>
-                                <value name="dataTypeVersion">dtVersion2</value>
-                                <array name="targetNames" type="record" depth="1">
-                                  <record javaclass="com.wm.util.Values">
-                                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                                    <value name="ncName">ID</value>
-                                  </record>
-                                </array>
-                              </record>
-                              <value name="nillable">true</value>
-                              <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                              <value name="form_qualified">false</value>
-                              <value name="is_global">false</value>
-                            </record>
-                            <record javaclass="com.wm.util.Values">
-                              <value name="node_type">field</value>
-                              <value name="node_subtype">unknown</value>
-                              <value name="node_comment">CF</value>
-                              <value name="is_public">false</value>
-                              <value name="field_name">ens:CF__c</value>
-                              <value name="field_type">string</value>
-                              <value name="field_dim">0</value>
-                              <value name="field_opt">true</value>
-                              <record name="field_content_type" javaclass="com.wm.util.Values">
-                                <value name="contentType">1</value>
-                                <value name="internalType">reference</value>
-                                <value name="dataTypeVersion">dtVersion2</value>
-                                <array name="targetNames" type="record" depth="1">
-                                  <record javaclass="com.wm.util.Values">
-                                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                                    <value name="ncName">string</value>
-                                  </record>
-                                </array>
-                              </record>
-                              <value name="nillable">true</value>
-                              <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                              <value name="form_qualified">false</value>
-                              <value name="is_global">false</value>
-                            </record>
                           </array>
                           <record name="schemaType" javaclass="com.wm.util.Values">
                             <value name="xmlns">urn:sobject.partner.soap.sforce.com</value>
@@ -3652,7 +3477,7 @@
     <value name="failureThreshold">5</value>
     <value name="failurePeriod">60</value>
     <value name="openAction">1</value>
-    <null name="serviceToInvoke"/>
+    <value name="serviceToInvoke"></value>
     <value name="resetPeriod">300</value>
     <value name="cancelThreadOnTimeout">false</value>
   </record>
@@ -4857,111 +4682,6 @@
             <value name="fieldDimension">0</value>
             <value name="nativeType">date</value>
             <value name="soapType">xsd:date</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">false</Boolean>
-            <Boolean name="isNillable">true</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <null name="attributes"/>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">personalContact__c</value>
-            <value name="fieldLabel">personalContact</value>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">phone</value>
-            <value name="soapType">xsd:string</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">false</Boolean>
-            <Boolean name="isNillable">true</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <null name="attributes"/>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">newtest_c__c</value>
-            <value name="fieldLabel">newtest_c</value>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">string</value>
-            <value name="soapType">xsd:string</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">false</Boolean>
-            <Boolean name="isNillable">true</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <null name="attributes"/>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">CountryExtId_c_c__c</value>
-            <value name="fieldLabel">CountryExtId_c__c</value>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">string</value>
-            <value name="soapType">xsd:string</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">false</Boolean>
-            <Boolean name="isNillable">true</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <null name="attributes"/>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">SampleExt_c__c</value>
-            <value name="fieldLabel">SampleExt__c</value>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">string</value>
-            <value name="soapType">xsd:string</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">false</Boolean>
-            <Boolean name="isNillable">true</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <null name="attributes"/>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">test_doc_deprecated__c</value>
-            <value name="fieldLabel">test_doc_deprecated</value>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">textarea</value>
-            <value name="soapType">xsd:string</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">false</Boolean>
-            <Boolean name="isNillable">true</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <null name="attributes"/>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">test_doc__c</value>
-            <value name="fieldLabel">test_doc</value>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">reference</value>
-            <value name="soapType">tns:ID</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">false</Boolean>
-            <Boolean name="isNillable">true</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <null name="attributes"/>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">CF__c</value>
-            <value name="fieldLabel">CF</value>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">string</value>
-            <value name="soapType">xsd:string</value>
             <null name="wrapperType"/>
             <Boolean name="isRequired">false</Boolean>
             <Boolean name="isNillable">true</Boolean>

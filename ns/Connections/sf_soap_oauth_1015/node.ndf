@@ -13,7 +13,7 @@
     <value name="providerName">WmSalesforceProvider</value>
     <value name="providerConnectionType">sagcloud_oauth_v20_authorization_code</value>
     <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
-      <value name="cn.providerUrl">https://na172.salesforce.com/services/Soap/u/53.0</value>
+      <value name="cn.providerUrl">https://softwareag7-dev-ed.my.salesforce.com/services/Soap/u/53.0</value>
       <value name="cn.connectTimeout">180000</value>
       <value name="cn.readTimeout">180000</value>
       <value name="cn.socketStaleCheck">true</value>
@@ -34,18 +34,19 @@
       <value name="cn.enableCompression">false</value>
       <value name="cn.enableSNI">true</value>
       <value name="cn.sniServerName"></value>
-      <value name="oauth.consumerId">3MVG95jctIhbyCpoC431t.dPam3LGrayNEVZdaJ0mzgL8AfnNn.Y1lRpZle6xGmbvQOZjqLszwxB9Kd26_RbZ</value>
+      <value name="oauth.consumerId">3MVG9wt4IL4O5wvIADNKl03CbBmCQKcAkAbkFDcpaTXkyVfv7X1O4s2cklJGvkgxFTHWN6GBLsMx_IKubmOL5</value>
       <value name="oauth.consumerSecret">Connections:sf_soap_oauth_1015.oauth.consumerSecret</value>
       <value name="oauth.accessToken">Connections:sf_soap_oauth_1015.oauth.accessToken</value>
       <value name="oauth_v20.authorizationServerUrl">https://login.salesforce.com/services/oauth2/authorize</value>
       <value name="oauth_v20.authenticationServerUrl">https://login.salesforce.com/services/oauth2/token</value>
-      <value name="oauth_v20.instanceURL">https://na172.salesforce.com</value>
+      <value name="oauth_v20.instanceURL">https://ibmcom-2a7-dev-ed.develop.my.salesforce.com</value>
       <value name="oauth_v20.refreshAccessToken">true</value>
       <value name="oauth_v20.refreshToken">Connections:sf_soap_oauth_1015.oauth_v20.refreshToken</value>
       <value name="oauth_v20.accessTokenRefreshURL">https://login.salesforce.com/services/oauth2/token</value>
       <value name="oauth_v20.accessTokenRefreshURLRequest">Body Query String</value>
       <value name="oauth_v20.accessTokenRefreshCustomESBService"></value>
       <value name="oauth_v20.authorizationHeaderPrefix">Bearer</value>
+      <value name="oauth_v20.authorizationHeaderInTokenRefresh">false</value>
       <value name="oauth_v20.scope">offline_access api refresh_token</value>
       <value name="cx.grant_type">refresh_token</value>
     </record>
@@ -66,6 +67,8 @@
       <value name="timeoutType">auto</value>
       <value name="sessionExpiry">0</value>
     </record>
+    <array name="formattableFields" type="value" depth="1">
+    </array>
     <value name="connectionEnabled">true</value>
   </record>
 </Values>

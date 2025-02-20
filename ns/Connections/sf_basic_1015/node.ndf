@@ -34,7 +34,7 @@
       <value name="cn.enableCompression">false</value>
       <value name="cn.enableSNI">true</value>
       <value name="cn.sniServerName"></value>
-      <value name="cr.username">bmk@softwareag.com</value>
+      <value name="cr.username">cloudstreamssf@gmail.com</value>
       <value name="cr.password">Connections:sf_basic_1015.cr.password</value>
       <value name="cr.authSchemeType">none</value>
       <value name="cr.preemptiveAuthEnabled">false</value>
@@ -65,6 +65,8 @@
       <value name="timeoutType">fixed</value>
       <value name="sessionExpiry">14</value>
     </record>
+    <array name="formattableFields" type="value" depth="1">
+    </array>
     <value name="connectionEnabled">true</value>
   </record>
 </Values>
