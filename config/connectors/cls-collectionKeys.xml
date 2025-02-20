@@ -4,7 +4,7 @@
         <servicesKeys>
             <keyDetails collectionKey="CCS:sf_query_basic_soap_1015" connectorServiceName="CCS:sf_query_basic_soap_1015"/>
             <keyDetails collectionKey="CCS:sf_query_jwt_soap_1015" connectorServiceName="CCS:sf_query_jwt_soap_1015"/>
-            <keyDetails collectionKey="CCS:sf_query_oauth_soap_1015" connectorServiceName="CCS:sf_query_oauth_soap_1015"/>
+            <keyDetails collectionKey="CCS:sf_query_soap_oauth_1015" connectorServiceName="CCS:sf_query_soap_oauth_1015"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>
